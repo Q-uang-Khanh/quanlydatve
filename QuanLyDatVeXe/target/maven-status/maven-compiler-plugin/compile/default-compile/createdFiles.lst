@@ -14,6 +14,7 @@ com\tqk\pojo\Chuyenxe_.class
 com\tqk\pojo\User.class
 com\tqk\pojo\ChuyenxeXe_.class
 com\tqk\service\impl\ChuyenxeServiceImpl.class
+com\tqk\repository\impl\BenxeRepositoryImpl.class
 com\tqk\pojo\Xe.class
 com\tqk\pojo\Benxe_.class
 com\tqk\pojo\Role_.class
@@ -21,8 +22,11 @@ com\tqk\pojo\ChuyenxeXePK.class
 com\tqk\service\ChuyenxeService.class
 com\tqk\pojo\Benxe.class
 com\tqk\repository\ChuyenXeRepository.class
+com\tqk\service\BenxeService.class
 com\tqk\pojo\Binhluan_.class
+com\tqk\repository\BenxeRepository.class
 com\tqk\pojo\Chuyenxe.class
+com\tqk\service\impl\BenxeServiceImpl.class
 com\tqk\pojo\Ghe_.class
 com\tqk\pojo\ChuyenxeXe.class
 com\tqk\pojo\Vexe.class

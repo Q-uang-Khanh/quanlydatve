@@ -26,5 +26,15 @@ public class ChuyenxeServiceImpl implements ChuyenxeService{
     public List<Chuyenxe> getCX() {
         return this.repo.getCX();
     }
+
+    @Override
+    public Chuyenxe getChuyenxeById(int id) {
+        return this.repo.getChuyenxeById(id);
+    }
+
+    @Override
+    public boolean add(Chuyenxe cx) {
+        return this.repo.addOrUpdate(cx);
+    }
     
 }

@@ -4,21 +4,13 @@
  */
 package com.tqk.repository;
 
-import com.tqk.pojo.Chuyenxe;
+import com.tqk.pojo.Benxe;
 import java.util.List;
-import java.util.Map;
 
 /**
  *
  * @author ADMIN
  */
-public interface ChuyenXeRepository {
-    List<Chuyenxe> getCX(Map<String,String> params);
-    
-    Chuyenxe getChuyenxeById(int id);
-    
-    boolean addOrUpdate(Chuyenxe cx);
-    
-    boolean delete(Chuyenxe cx);
-
+public interface BenxeRepository {
+     List<Benxe> getBX();
 }

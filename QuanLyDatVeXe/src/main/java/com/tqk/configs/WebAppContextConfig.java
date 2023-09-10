@@ -22,7 +22,10 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan(basePackages ={
-    "com.tqk.controllers"
+    "com.tqk.controllers",
+    "com.tqk.repository",
+    "com.tqk.service",
+    "com.tqk.pojo"
 })
 public class WebAppContextConfig implements WebMvcConfigurer{
 

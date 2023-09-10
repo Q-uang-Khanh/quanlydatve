@@ -13,4 +13,18 @@ import java.util.List;
  */
 public interface ChuyenxeService {
     List<Chuyenxe> getCX();
+    
+    Chuyenxe getChuyenxeById(int id);
+    
+    boolean add(Chuyenxe cx);
+    
+    
+    
+//    Post getPostById(int id);
+//
+//    boolean add(Post post, Principal principal);
+//
+//    boolean update(Post post);
+//
+//    boolean delete(int id);
 }
